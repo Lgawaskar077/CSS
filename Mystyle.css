@@ -1,0 +1,18 @@
+*/ this file must contain only CSS code/*
+*/ universal selector/*
+
+*{ 
+margin: 1px;
+padding: 1px;
+letter-spacing:1px;
+color:#980404;
+}
+
+/* type selector*/
+
+body{background-color: #FFFDE1;
+
+}
+
+/* id selector style*/
+#news
