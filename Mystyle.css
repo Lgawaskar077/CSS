@@ -1,8 +1,7 @@
-*/ this file must contain only CSS code/*
-*/ universal selector/*
-
+/* this file must contain only CSS code*/
+/* universal selector*/
 *{ 
-margin: 1px;
+margin: 2px;
 padding: 1px;
 letter-spacing:1px;
 color:#980404;
@@ -10,9 +9,83 @@ color:#980404;
 
 /* type selector*/
 
-body{background-color: #FFFDE1;
-
+body{ 
+    background-color: #FFFDE1;
+    background-image: url('images css/bhalu.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* id selector style*/
+#news { 
+    border:2px solid #980404
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left:10px;
 }
 
-/* id selector style*/
-#news
+/* secect all article tag*/
+#new>article {
+    box-sizing: border-box;
+    width:calc(25%-10px);
+    border:1px solid #980404;
+    background-color:#FBE58080;
+    font-size: 18px;
+    height:600px;
+    overflow: scroll;
+}
+/* select all paragraph*/
+#new>article>p
+{ 
+    text-align: justify;
+    text-indent:50px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line: height 125%;
+    padding:10px;
+
+}
+#news>article>header,#news>article>footer
+{
+  background-color: #980404;
+  color:#FBE580;
+  font-size:24px;
+  text-align: center;
+  text-transform:uppercase;
+  }
+
+#news>article>header
+{
+    position:sticky;
+    top:0px;
+    left:0px;
+}
+#news>article>footer
+{
+    position:sticky;
+    top:0px;
+    left:0px;
+}
+body>header,body>footer
+{
+    background-color:#980404;
+}
+body>header,body>footer{
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+body>header>h1,body>footer>p{
+    color:#FBE58080;
+    text-align: center;
+}
+body>footer>h1,body>footer>p{
+    color: #0f246b;
+}
+body>footer>p{
+    text-align:center;
+    font-size: large;
+}

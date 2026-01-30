@@ -1,0 +1,38 @@
+* {
+    margin:0px;
+    padding:0px;
+    letter-spacing: 0px;
+    font-size: 18px;
+
+}
+body
+{background-color: #FFFBF2;}
+
+#side_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;}
+
+    #side_header>div 
+    {
+      display;flex;
+      width:300px;
+      align-items: center;
+    }
+
+    #side_header>ul {
+        display:flex;
+        gap:20px;
+        list-style-type: none;
+    }
+    #side_header>ul>li:last-child {margin-right:20px
+
+    }
+    #content{
+        display :flex;
+        gap:20px;
+    }
+
+    #content>article
+
+
