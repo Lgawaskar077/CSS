@@ -1,0 +1,159 @@
+* {
+    margin:0px;
+    padding:0px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+}
+
+article>ul>li
+    {
+      list-style-position: inside;
+      border-bottom: 1px solid black;
+      margin-bottom: 0px;
+
+    }
+
+#articale>header 
+{
+  background-color: aqua;
+}
+#side_header>div:first-child{
+ background-color:rgb(93, 101, 204); 
+ box-shadow: 5px 5px 5px;
+ width: 110px;
+ border-radius: 20px;
+}
+
+
+body
+{background-color: #FFFBF2;}
+
+h1,h2,h3,h4,h5,h6,header
+{
+    font-family: 'montserrat',sans-serif;
+}
+
+#side_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdffb6;
+}
+
+    #side_header>div 
+    {
+      display:flex;
+      width:600px;
+      align-items: center;
+      
+    }
+
+   
+#side_header>div>h2{
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+#side_header>ul>li>a:link
+ {
+    background-color: #6C63FF;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#side_header>ul>li>a:visited
+{
+    color:red;
+}
+
+#side_header>ul>li>a:hover
+{
+    color:greenyellow;
+    background:#6c63ff;
+    background:radial-gradient(circle,)
+}
+
+#side_header>ul>li>a:active
+{
+    color:yellow;
+    background:#6c63ff;
+    background:radial-gradient(circle,)
+}
+    #side_header>ul {
+        display:flex;
+        gap:20px;
+        list-style-type:none;
+       
+
+    }
+    #side_header>ul>li:last-child 
+    { 
+        margin-right:20px
+    }
+
+    article
+    {
+    border: 2px solid black;
+    text-align: center;
+    }
+    header
+    {
+      initial-letter: 2px;
+    }
+    article>p
+    {
+        padding: 5px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        text-align:justify;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #content{
+        display :flex;
+        gap:20px;
+    }
+    section{
+        display:flex;
+        border-radius: 1px;
+    }
+    #side_footer{
+        display:flex;
+        width:100%;
+    }
+    
+    #side_footer>div:first-child{
+        min-width:25%;
+    }
+
+    #side_footer>div:nth-child(2){
+        min-width: 60%;
+    }
+
+    #side_footer>div:nth-child(3){
+        min-width: 15%;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    #side_footer>div:nth-child(3)>img{
+        width:50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding-right:3px;
+    }
+    
+
+
+
+
+
